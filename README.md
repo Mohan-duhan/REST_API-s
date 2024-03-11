@@ -22,6 +22,33 @@ This project is a RESTful API built using [Node.js](https://nodejs.org/), [Expre
 - [MongoDB Installation Guide](https://docs.mongodb.com/manual/installation/): Install and set up MongoDB on your machine.
 - Configure the MongoDB connection in `index.js`.
 
+## Output 📤
+- **GET /resources**:
+  - Example Response:
+    ```json
+    [
+      {
+        "id": 1,
+        "name": "Resource 1",
+        "description": "This is the first resource."
+      },
+      {
+        "id": 2,
+        "name": "Resource 2",
+        "description": "This is the second resource."
+      }
+    ]
+    ```
+- **GET /resources/:id**:
+  - Example Response:
+    ```json
+    {
+      "id": 1,
+      "name": "Resource 1",
+      "description": "This is the first resource."
+    }
+    ```
+
 ## Usage ℹ️
 1. Clone the repository to your local machine.
 2. Follow the installation and setup steps above.
